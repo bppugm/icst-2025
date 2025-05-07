@@ -1,8 +1,8 @@
-<a href="http://icst.ugm.ac.id"><img src="https://github.com/bppugm/icst-2024/blob/main/images/logos/logo.svg" height="142px" align="right"></a>
+<a href="http://icst.ugm.ac.id"><img src="https://github.com/bppugm/icst-2025/blob/main/images/logos/logo.svg" height="142px" align="right"></a>
 
-# Website for the ICST UGM 2024
+# Website for the ICST UGM 2025
 
-This is the copy of website for The 10<sup>th</sup> International Conference on Science and Technology (ICST UGM 2024), hosted by Universitas Gadjah Mada on 23–24 October 2024.
+This is the copy of website for The 11<sup>th</sup> International Conference on Science and Technology (ICST UGM 2025), hosted by Universitas Gadjah Mada on 30–31 July 2025.
 
 ## Credits
 
@@ -25,17 +25,17 @@ This is the copy of website for The 10<sup>th</sup> International Conference on 
 
 ### Jumbotron
 
-+ Google DeepMind via [Pexels](https://www.pexels.com/photo/an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-how-ai-could-help-understand-ecosystems-and-identify-species-it-was-created-by-nidia-dias-as-part-of-the-visua-18069370/); [Free to use](https://www.pexels.com/license/).
-+ Pixabay via [Pexels](https://www.pexels.com/photo/electric-towers-during-golden-hour-221012/); [Free to use](https://www.pexels.com/creative-commons-images/).
-+ Google DeepMind via [Pexels](https://www.pexels.com/photo/an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-the-process-used-by-text-to-image-diffusion-models-it-was-created-by-linus-zoll-as-part-of-the-visualising-ai-18069156/); [Free to use](https://www.pexels.com/license/).
++ Anton Maksimov 5642.su via [Pexels](https://unsplash.com/photos/red-yellow-and-green-lights-2UH8t9FpIz4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash); [Free to use](https://www.pexels.com/license/).
 
 ### Symposia images
 All symposia images are free to use.
-+ Computer, Electronics, and Information Technology symposium by Umberto via [Unsplash](https://unsplash.com/photos/blue-circuit-board-jXd2FSvcRr8); [Free to use](https://unsplash.com/license).
-+ The 5th Geoscience and Environmental Management symposium by Pixabay via [Pexels](https://www.pexels.com/photo/electric-towers-during-golden-hour-221012/); [Free to use](https://www.pexels.com/creative-commons-images/). 
-+ Life Sciences, Materials, and Applied Chemistry symposium by Ivan Samkov via [Pexels](https://www.pexels.com/photo/a-person-holding-a-dropper-9628828/); [Free to use](https://www.pexels.com/license/).
-+ Mechanical and Industrial Engineering symposium by Hebert Santos via [Pexels](https://www.pexels.com/photo/close-up-photo-of-black-and-silver-car-engine-3757226/); [Free to use](https://www.pexels.com/license/).
-+ Yaroslav Shuraev via [Pexels](https://www.pexels.com/photo/top-view-photo-of-curved-road-surrounded-by-trees-1834403/); [Free to use](https://www.pexels.com/license/).
++ Computer, Electronics, and Information Technology symposium by Pachon in Motion via [Pexels](https://www.pexels.com/photo/a-computer-generated-image-of-a-city-with-lights-18337612/); [Free to use](https://www.pexels.com/license/).
++ The 6th Geoscience and Environmental Management symposium by Dan Meyers via [Unsplash](https://unsplash.com/photos/a-picture-of-a-cracked-surface-with-plants-growing-on-it-yW9YbBc4YJA); [Free to use](https://unsplash.com/license). 
++ Life Sciences, Materials, and Applied Chemistry symposium by Vedrana Filipović via [Unsplash](https://unsplash.com/photos/round-clear-glass-on-white-paper-jxqTaXF5WmY); [Free to use](https://unsplash.com/license).
++ Mechanical and Industrial Engineering symposium by Jerry Wang via [Pexels](https://www.pexels.com/photo/black-and-gray-train-on-rail-tracks-3787405/); [Free to use](https://www.pexels.com/license/).
++ Remote Sensing and Geomatics symposium by Mikhail Nilov via [Pexels](https://www.pexels.com/photo/sea-dawn-nature-beach-6965536/); [Free to use](https://www.pexels.com/license/).
++ The 6th International Conference on Smart and Innovative Agriculture by Rod Long via [Unsplash](https://unsplash.com/photos/green-book-lot-J-ygvQbilXU); [Free to use](https://unsplash.com/license).
++ The 6th International Conference on Bioinformatics, Biotechnology, and Biomedical Engineering by JJ Ying via [Unsplash](https://unsplash.com/photos/white-and-gray-optical-illusion-7JX0-bfiuxQ); [Free to use](https://unsplash.com/license).
 
 ### Logos
 + UGM and ICST logos © Universitas Gadjah Mada.
