@@ -136,18 +136,22 @@
           <button class="nav-link active" id="homeGEMtab" data-bs-toggle="tab" data-bs-target="#homeGEM" type="button"
             role="tab" aria-controls="homeGEM" aria-selected="true"><i class="fa-solid fa-house"></i></button>
           <button class="nav-link" id="aboutGEMtab" data-bs-toggle="tab" data-bs-target="#aboutGEM" type="button"
-            role="tab" aria-controls="aboutGEM" aria-selected="false">About GEM</button>
+            role="tab" aria-controls="aboutGEM" aria-selected="false">About</button>
           <button class="nav-link" id="authorGEMtab" data-bs-toggle="tab" data-bs-target="#authorGEM" type="button"
             role="tab" aria-controls="authorGEM" aria-selected="false">Author Guidelines</button>
-          <li class="nav-item">
-            <a class="nav-link" href="fee.html" aria-selected="false">Participation Fee</a>
-          </li>
+          <button class="nav-link" id="policyGEMtab" data-bs-toggle="tab" data-bs-target="#policyGEM" type="button"
+            role="tab" aria-controls="policyGEM" aria-selected="false">Editorial Policy</button>
+          <button class="nav-link" id="feeGEMtab" data-bs-toggle="tab" data-bs-target="#feeGEM" type="button"
+            role="tab" aria-controls="feeGEM" aria-selected="false">Conference fees</button>
+          <button class="nav-link" id="venueGEMtab" data-bs-toggle="tab" data-bs-target="#venueGEM" type="button"
+            role="tab" aria-controls="venueGEM" aria-selected="false">Venue</button>
           <button class="nav-link" id="submitGEMtab" data-bs-toggle="tab" data-bs-target="#submitGEM" type="button"
             role="tab" aria-controls="submitGEM" aria-selected="false"><i class="fa-solid fa-plus"
               style="padding-right: 10px;"></i>Submit paper</button>
         </div>
       </nav>
       <div class="tab-content" id="gemTabContent">
+        <!-- Home -->
         <div class="tab-pane fade show active" id="homeGEM" role="tabpanel" aria-labelledby="homeGEMtab" tabindex="0">
           <div class="container">
             <p class="pt-3">Held as part of the International Conference on Science and Technology (ICST UGM 2025), the 6th Geoscience and Environmental Management Symposium is dedicated to supporting and advancing the United Nations Sustainable Development Goals (SDGs). Each accepted paper is mapped to relevant SDGs such as climate action, clean energy, responsible resource use, water and land management, and sustainable communities. Our program encourages interdisciplinary solutions for a more sustainable and resilient future.</p>
@@ -259,64 +263,183 @@
       </div>
     </div>
             </div>
+        <!-- About -->
         <div class="tab-pane fade" id="aboutGEM" role="tabpanel" aria-labelledby="aboutGEMtab" tabindex="0">
-          <div class="row py-5">
-            <div class="col-lg-3 d-lg-block d-md-none">
-              <a href="#topics" class="d-none d-md-block btn btn-transprimary" style="text-align: right;">Topics</a>
-              <a href="#publication" class="d-none d-md-block btn btn-transprimary"
-                style="text-align: right;">Publications</a>
-              <a href="editorial-policy.html" class="d-none d-md-block btn btn-transprimary"
-                style="text-align: right;">Editorial policy</a>
-              <a href="#committees" class="d-none d-md-block btn btn-transprimary"
-                style="text-align: right;">Committees</a>
+          <div class="container">
+            <p class="text-center py-3"><a href="#topics" class="btn btn-success">Introduction</a>
+            <a href="#publication" class="btn btn-outline-primary">Publications</a>
+            <a href="#publication" class="btn btn-outline-primary">Previous events</a>
+            <a href="#committees" class="btn btn-outline-primary">Committees</a></p>
+            <p>The 6th Geoscience and Environmental Management Symposium (GEM – ICST 2025) serves as an international interdisciplinary forum for researchers, practitioners, and policymakers to present and discuss original research integrating geosciences, environmental management, engineering, and sustainability. Hosted by Universitas Gadjah Mada in conjunction with its major faculties, GEM focuses on advancing solutions to global challenges such as natural resource management, disaster risk reduction, renewable energy, and sustainable development.</p>
+            <p>In line with the United Nations Sustainable Development Goals (SDGs), every accepted paper is mapped to one or more of the 17 SDGs, fostering cross-disciplinary insights for a more sustainable future. Topics include land and water management, climate resilience, urban sustainability, circular economy, energy innovation, and more.</p>
+            <!-- Publications -->
+             <h5 id="publication">Publication</h5>
+            <p>The accepted and presented papers <b>has been submitted for possible inclusion to</b> proceedings that are indexed by Scopus/CPCI/DOAJ.</p>
+            <p>Since 2020, the Geoscience and Environmental Management Symposium has partnered with the International Conference on Science and Technology, with proceedings published in reputable outlets.</p>
+            <hr style="border: dashed 1px black;">
+            <div class="row">
+              <div class="col-lg-2 col-md-6 py-2">
+                <img src="../images/publication/e3s-cover.png" class="event-img">
+              </div>
+              <div class="col-lg-4 col-md-6 pt-5">
+                <p><b>E3S Web of Conferences</b><br>
+                Volume: 468<br>
+              ISSN: 2267-1242</p>
+              <a href="https://www.e3s-conferences.org/articles/e3sconf/abs/2023/105/contents/contents.html" class="btn btn-primary" target="_blank">Read articles</a>
+              </div>
+              <div class="col-lg-2 col-md-6 py-2">
+                <img src="../images/publication/iop-cover.png" class="event-img">
+              </div>
+              <div class="col-lg-4 col-md-6 pt-5">
+                <p><b>IOP Conference Series: Earth and Environmental Science</b><br>
+                Volume: 1233<br>
+              Online ISSN: 1755-1315<br>
+            Print ISSN: 1755-1307</p>
+            <a href="https://iopscience.iop.org/issue/1755-1315/1233/1" class="btn btn-primary" target="_blank">Read articles</a>
+              </div>
+              <div class="col-lg-2 col-md-6 py-2">
+                <img src="../images/publication/e3s-cover.png" class="event-img">
+              </div>
+              <div class="col-lg-4 col-md-6 pt-5">
+                <p><b>E3S Web of Conferences</b><br>
+                Volume: 325<br>
+              ISSN: 2267-1242</p>
+              <a href="https://www.e3s-conferences.org/articles/e3sconf/abs/2021/101/contents/contents.html" class="btn btn-primary" target="_blank">Read articles</a>
+              </div>
+              <div class="col-lg-2 col-md-6 py-2">
+                <img src="../images/publication/e3s-cover.png" class="event-img">
+              </div>
+              <div class="col-lg-4 col-md-6 pt-5">
+                <p><b>E3S Web of Conferences</b><br>
+                Volume: 200<br>
+              ISSN: 2267-1242</p>
+              <a href="https://www.e3s-conferences.org/articles/e3sconf/abs/2020/60/contents/contents.html" class="btn btn-primary" target="_blank">Read articles</a>
+              </div>
             </div>
-            <div class="col-lg-9 col-md-12">
-              <h5 id="topics">Topics</h5>
-              <p>Environmental management, Disaster risk reduction, Land, water, and natural resources, Engineering
-                economy and cost analysis, Environmental and geology engineering, Environmental development technology,
-                Geo-maritime, Geo-resources and geo-hazard, Geo-tourism and cultural geography, Human factors
-                ergonomics, Human and natural resources, Industrial geography and supply chain engineering, Safety,
-                security, and risk management, and Urban-rural resources and land use management.</p>
-              <h5 id="publication">Publication</h5>
-              <p>The accepted and presented papers <b>has been submitted for possible inclusion to</b> proceedings that are
-                indexed by Scopus/CPCI/DOAJ: <a href="https://www.e3s-conferences.org/about-the-journal/aims-and-scope"
-                  target="_blank">E3S Web of Conferences</a>.<br><br>
-                <a href="editorial-policy.html"><button class="btn btn-primary">Read editorial policy</button></a>
-              <h5 id="committees">Committees</h5>
-              <p><b>Advisory boards:</b><br>
-                Prof. Josaphat Tetuko Sri Sumantyo (<i style="color: gray;">Chiba University, Japan</i>) <a
-                  href="https://www.scopus.com/authid/detail.uri?authorId=55802422900" target="_blank"><img
-                    src="../images/publication/scopus.svg" height="12.5px"></a><br>
+            <!-- Committees -->
+              <h5 id="committees" class="pt-3">Committees</h5>
+              <p><b>Conference chair:</b><br>
+                I Made Andi Arsana, S.T., M.E., Ph.D. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
+                  href="https://www.scopus.com/authid/detail.uri?authorId=55780985900" target="_blank"><img
+                    src="../images/publication/scopus.svg" height="12.5px"></a></p>
+              <p><b>Publication chair:</b><br>
+                Dr.Eng. Ir. Wawan Budianta, S.T., M.Sc. IPM. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
+                  href="https://www.scopus.com/authid/detail.uri?authorId=57193496855" target="_blank"><img
+                    src="../images/publication/scopus.svg" height="12.5px"></a></p>
+              <p><b>Editor:</b><br>
                 Prof. Rohayu Che Omar (<i style="color: gray;">Universiti Tenaga Nasional​, Malaysia</i>) <a
                   href="https://www.scopus.com/authid/detail.uri?authorId=35753735300" target="_blank"><img
                     src="../images/publication/scopus.svg" height="12.5px"></a><br>
-                Prof. Ben White (<i style="color: gray;">Erasmus University, Netherlands</i>)<br>
+                Prof. Josaphat Tetuko Sri Sumantyo (<i style="color: gray;">Chiba University, Japan</i>) <a
+                  href="https://www.scopus.com/authid/detail.uri?authorId=55802422900" target="_blank"><img
+                    src="../images/publication/scopus.svg" height="12.5px"></a><br>
+                Prof. Ben White (<i style="color: gray;">Erasmus University Rotterdam, Netherlands</i>)<br>
                 Dr. Abraham Cardenas Tristan (<i style="color: gray;">Universidad Autónoma de San Luis Potosí,
                   Mexico</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=50861013700"
                   target="_blank"><img src="../images/publication/scopus.svg" height="12.5px"></a><br>
-                Prof. Dr. Dyah Rahmawati Hizbaron (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
-                  href="https://www.scopus.com/authid/detail.uri?authorId=36450403500" target="_blank"><img
-                    src="../images/publication/scopus.svg" height="12.5px"></a><br>
-                Prof. Dr. Eko Haryono (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
-                  href="https://www.scopus.com/authid/detail.uri?authorId=6508073148" target="_blank"><img
+                Prof. Florencio C. Ballesteros Jr.  (<i style="color: gray;">University of the Philippines Diliman, Philippines</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=36664314600"
+                  target="_blank"><img src="../images/publication/scopus.svg" height="12.5px"></a><br>
+                Dr.Eng. Ir. Wawan Budianta, S.T., M.Sc. IPM. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
+                  href="https://www.scopus.com/authid/detail.uri?authorId=57193496855" target="_blank"><img
                     src="../images/publication/scopus.svg" height="12.5px"></a></p>
-              <p><b>Coordinator:</b><br>
+              <p><b>Scientific committee:</b><br>
                 Ratih Fitria Putri, Ph.D. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
                   href="https://www.scopus.com/authid/detail.uri?authorId=55574444300" target="_blank"><img
-                    src="../images/publication/scopus.svg" height="12.5px"></a></p>
-              <p><b>Co-coordinator:</b><br>
-                Muhammad Rafieiy, S.Si. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)</p>
-              <p><b>Scientific committee:</b><br>
-                Dr. Wawan Budianta, S.T., M.Sc. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
-                  href="https://www.scopus.com/authid/detail.uri?authorId=57193496855" target="_blank"><img
                     src="../images/publication/scopus.svg" height="12.5px"></a><br>
                 Seri Aryati, S.Pd., M.Sc. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
                   href="https://www.scopus.com/authid/detail.uri?authorId=57216290170" target="_blank"><img
                     src="../images/publication/scopus.svg" height="12.5px"></a></p>
+                    </div>
+        </div>
+        <!-- Guide -->
+        <div class="tab-pane fade" id="authorGEM" role="tabpanel" aria-labelledby="authorGEMtab" tabindex="0">
+          <div class="container">
+            <div class="text-center py-3">
+              <a href="#prepare" class="btn btn-success">Preparing paper</a>
+              <a href="#docs" class="btn btn-outline-primary">Downloadable templates</a>
+              <a href="#docs" class="btn btn-outline-primary">Related documents</a>
+              <a href="#learn" class="btn btn-outline-primary">💡 Learning tips</a>
             </div>
+            <h5 id="prepare">Preparing your paper</h5>
+              <ol type="1">
+                <li>The paper topic should <u>align with the scope of the symposium</u>, as well as the publisher's
+                  guidelines, to ensure relevance to the event's focus. This ensures that the submitted work is
+                  pertinent to the conference's objectives and will be of interest to the attendees and readers.</li>
+                <li>The submitted paper must be <u>an original work</u> and should not have been previously published or
+                  presented at another meeting (similarity score no more than 25%). <span style="color: gray;">💡 To
+                    ensure the paper's authenticity, it is recommended to use the Similarity Checker feature available
+                    in the Editor pane of Microsoft Word to check the paper against online sources.</span></li>
+                <li>The paper should be <u>written in English (US)</u>.</li>
+                <li>The <u>abstract should be concise and no longer than 200 words</u>, excluding the abstract title,
+                  authors, and affiliations. It should be <u>formatted in a two-column layout on A4 paper size</u> in
+                  <code style="color: black;">PDF</code> format. 
+                  Furthermore, the paper should be <u>at least four pages long</u> to provide a comprehensive overview of the paper's main points and contributions.</li>
+                <li>The template, modified in Microsoft Word and saved as a <code style="color: black;">DOCX</code> file
+                  for PC compatibility, offers authors a comprehensive set of formatting guidelines for preparing
+                  electronic versions of their papers. <span style="color: gray;">You can access the <a
+                      href="#docs">downloadable <code>DOCX</code> template here ↧</a>. This template includes built-in
+                    specifications for margins, column widths, line spacing, font sizes, and font types, ensuring a
+                    professional and consistent appearance for your submissions.</span></li>
+                <ul>
+                  <li>Font types. Arial (for paper title and headings); Times, Times Roman, or Times New Roman (for all contents, included figures and tables);</li>
+                  <li>Font sizes. Title (16 pt); Author (10 pt); Affiliation and Abstract (9 pt); Heading 1 (12 pt); Heading 2-4 and Content (10 pt); Table head, Figure caption and Table body (9 pt).</li>
+                  <li>Margins. Top (25 mm); Left, Bottom and Right (20 mm); and</li>
+                  <li>Please ensure that all fonts are embedded, not as encrypted/secured file, and has no headers,
+                    footers, bookmarks, form fields, links, or annotation. <span style="color:gray">💡 For further
+                      assurance, we recommend utilizing the <a href="http://pdf-analyser.edpsciences.org/"
+                        target="_blank">PDF analyzer ↗︎</a> provided by EDP Sciences to inspect the document and
+                      guarantee that the submitted paper meet the required standards.</span></li>
+                </ul>
+                <li>To ensure optimal print quality, it is crucial that the <u>listed artworks are provided with the
+                    highest resolution suitable for printing</u>, specifically 300 DPI (dots per inch). <span
+                    style="color: gray;">💡 For further assurance, we recommend utilizing the <a
+                      href="http://pdf-analyser.edpsciences.org/" target="_blank">PDF analyzer ↗︎</a> provided by EDP
+                    Sciences to inspect the document and guarantee that the artworks meet the required standards.</span>
+                </li>
+                <li>When incorporating tables and figures from external sources into your paper, ensure that the
+                  original work is written in English (US) and that you have obtained the necessary permissions from the
+                  copyright holder. Additionally, include a proper credit in your paper to acknowledge the source and
+                  comply with copyright regulations.</li>
+                <li>For both primary and co-authors, it is essential to provide complete credentials, including full
+                  names and email addresses. If co-authors are affiliated with multiple institutions, the secondary
+                  institution(s) and the investigators associated with each institution must be listed. Please note that
+                  the author name order should not be reversed unless explicitly instructed by the publisher.
+                  Additionally, affiliations and author names <u>should not include professional titles</u>, such as
+                  "Professor", "Graduate Student Researcher", "HOD", "Lecturer", "Alumnus", etc., to maintain
+                  consistency and clarity.</li>
+              </ol>
+              <h5 id="docs">Downloadable templates and related documents</h5>
+              <a class="btn btn-trans2primary" href="../downloads/e3s_paper-template.docx" target="_blank"><i
+                  class="fa-solid fa-file-word" style="padding-right: 10px;"></i> Docx paper template
+                <code>33 KB</code></a><br>
+                <a class="btn btn-trans2primary" href="https://www.e3s-conferences.org/for-authors" target="_blank"><i
+                  class="fa-solid fa-book" style="padding-right: 10px;"></i> Paper guidelines</a><br>
+              <a class="btn btn-trans2primary"
+                href="../downloads/E3S_publication_right_form.pdf" target="_blank"><i
+                  class="fa-solid fa-copyright" style="padding-right: 8px;"></i> Publication right form
+                <code>404 KB</code></a><br>
+              <a class="btn btn-trans2primary" href="https://www.e3s-conferences.org/about-the-journal/publishing-policies-ethics" target="_blank"><i
+                  class="fa-solid fa-shield-halved" style="padding-right: 8px;"></i> Policies & ethics</a><br><br>
+              <div class="alert alert-info">
+                <h5 id="learn">💡 Learning tips</h5>
+                <a class="btn btn-trans2primary"
+                  href="https://support.microsoft.com/en-us/office/check-your-document-for-similarity-to-online-sources-6d942360-b5ca-445f-a84d-6e8c66fc40d2" target="_blank"><i
+                    class="fa-solid fa-clipboard-check" style="padding-right: 10px;"></i> Check similarity with
+                  Microsoft Editor</a><br>
+                <a class="btn btn-trans2primary"
+                  href="https://support.microsoft.com/en-us/office/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109" target="_blank"><i
+                    class="fa-solid fa-swatchbook" style="padding-right: 8px;"></i> Use styles in Microsoft Word</a><br>
+                <a class="btn btn-trans2primary"
+                  href="https://answers.microsoft.com/en-us/msoffice/forum/all/how-do-i-embed-fonts-when-converting-a-word/70ff5c56-034c-42d0-b334-e396a2ebb689" target="_blank"><i
+                    class="fa-solid fa-spell-check" style="padding-right: 8px;"></i> Embed all fonts in Microsoft
+                  Word</a><br>
+                <a class="btn btn-trans2primary" href="http://pdf-analyser.edpsciences.org/" target="_blank"><i
+                    class="fa-solid fa-magnifying-glass" style="padding-right: 10px;"></i> Check document's content</a>
+              </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="authorGEM" role="tabpanel" aria-labelledby="authorGEMtab" tabindex="0">
+        <!-- Policy -->
+        <div class="tab-pane fade" id="policyGEM" role="tabpanel" aria-labelledby="policyGEMtab" tabindex="0">
           <div class="row py-5">
             <div class="col-lg-3 d-lg-block d-md-none">
               <a href="#prepare" class="d-none d-md-block btn btn-transprimary" style="text-align: right;">Preparing
@@ -407,8 +530,269 @@
             </div>
           </div>
         </div>
+        <!-- Fee -->
+        <div class="tab-pane fade" id="feeGEM" role="tabpanel" aria-labelledby="feeGEMtab" tabindex="0">
+          <section class="container">
+    <p class="alert alert-warning" style="text-align: center">Participants can only pay the conference fees after receiving an acceptance notification email.</p>
+      <div class="row">
+        <div class="col-lg-8">
+          <br>
+          <h3>Payment procedure</h3>
+          <p>If you want to participate in the conference, there are four steps that you need to follow to make a payment in the ICST UGM 2024.</p>
+          <div class="accordion" id="accordionPayment">
+            <!-- Payment nominal -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapse1" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapse1">
+                  #1<b style="text-transform: uppercase; font-weight: 900; padding-left: 10px;">Know your payment</b>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionPayment">
+                <div class="accordion-body">
+                  <p>There are different fees that need to be paid to take part in this conference. Participants from Indonesia should pay the domestic participant fee.</p>
+          <div class="accordion">
+            <!-- International participant -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapse2" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapse2">
+                  <b style="text-transform: uppercase; font-weight: 900;">For international participant</b>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                      <thead class="table-primary">
+                        <tr>
+                          <th scope="col">Presenter</th>
+                          <th scope="col"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Early bird discount (until October 14)</th>
+                          <td>US$275</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Regular</th>
+                          <td>US$300</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Additional paper(s)</th>
+                          <td>US$175</td>
+                        </tr>
+                      </tbody>
+                      <thead class="table-primary">
+                        <tr>
+                          <th scope="col">Non-presenter</th>
+                          <th scope="col"></th>
+                        </tr>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Early bird discount (until October 14)</th>
+                            <td>US$100</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Regular</th>
+                            <td>US$150</td>
+                          </tr>
+                        </tbody>
+                      </thead>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Domestic participant -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapse3" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapse3">
+                  <b style="text-transform: uppercase; font-weight: 900;">For domestic participant</b>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                      <thead class="table-primary">
+                        <tr>
+                          <th scope="col">Presenter</th>
+                          <th scope="col"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Early bird discount (until October 14)</th>
+                          <td>IDR2,750,000</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Regular</th>
+                          <td>IDR3,000,000</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Additional paper(s)</th>
+                          <td>IDR1,750,000</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">UGM member</th>
+                          <td>IDR2,750,000</td>
+                        </tr>
+                      </tbody>
+                      <thead class="table-primary">
+                        <tr>
+                          <th scope="col">Non-presenter</th>
+                          <th scope="col"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Early bird discount (until October 14)</th>
+                          <td>IDR1,000,000</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Regular</th>
+                          <td>IDR1,500,000</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Payment methods -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapse4">
+                  #2<b style="text-transform: uppercase; font-weight: 900; padding-left: 10px;">Make your payment</b>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionPayment">
+                <div class="accordion-body">
+                  <p>Payments cannot be made in cash; they must be via credit card or bank transfer to the ICST UGM account below:<br><br>
+                    <b>Payment via bank account (USD)</b><br>
+                    For international presenter can pay the conference fees to:<br>
+                    Account number: 9888-9-002-2411-1453<br>
+                    Account name: UGM ICST<br>
+                    Bank name: BNI 46<br>
+                    Swift code: BNINIDJA<br>
+                    <i><small>*) Please note that the bank's account number is different for the international and local presenter.</small></i><br><br>
+                    <b>Payment via bank account (IDR)</b><br>
+                    For local presenter (Indonesia) can pay the conference fees to:<br>
+                    Account number: 9888-8-002-2411-1453<br>
+                    Account name: UGM ICST<br>
+                    Bank name: BNI 46<br>
+                    <i><small>*) Please note that the bank's account number is different for the international and local presenter.</small></i></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Payment confirmation -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapse5">
+                  #3<b style="text-transform: uppercase; font-weight: 900; padding-left: 10px;">Confirm your payment</b>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionPayment">
+                <div class="accordion-body">
+                  <p>Before confirming your payment in the confirmation form, you need to prepare these following items:</p>
+                  <ul>
+                    <li>The scanned or screenshot of your payment proof in JPG / JPEG / PDF format.</li>
+                    <li>Your paper ID(s).</li>
+                    <li>The attendee/presenter name.</li>
+                  </ul>
+                  <a href="https://edas.info/" target="_blank" class="btn btn-primary">Check my EDAS ID</a>&nbsp;
+                  <a href="https://airtable.com/appo2tiFNJI7RGUyt/pagTQM3oG7tfWfYzl/form" target="_blank" class="btn btn-invprimary">Confirm my payment</a><br><br>
+                  <p>You can find your paper ID in the EDAS as shown by this following image:</p>
+                  <img class="rounded mb-3 img-tutorial" src="../images/tutorials/edas-paperID.png">
+                </div>
+              </div>
+            </div>
+
+            <!-- Payment verification -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapse6" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapse6">
+                  #4<b style="text-transform: uppercase; font-weight: 900; padding-left: 10px;">Payment verification</b>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionPayment">
+                <div class="accordion-body">
+                  <ul>
+                  <li>Wait for the next 2–3 business days for us to verify your payment. Please make sure not to miss the date.</li>
+                  <li>The deadline for the payment confirmation is on <b>October 16</b>, but you will get an early-bird discount if you pay before <b>October 14</b>.</li>
+                  <li><u>If you did not pay via credit card in the EDAS, you do not need to click the register icon in the EDAS.</u> The committee will register it for you after reviewing your payment.</li>
+                  <li>If you still require further assistance, please feel free to <a href="mailto:icst@ugm.ac.id" target="_blank">contact us</a>.</li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <br class="d-none d-md-block">
+          <div class="alert alert-info">
+          <h6>Terms and conditions</h6>
+          <ol type="1">
+            <li>The registration fee includes the following benefits: seminar materials, lunch, morning and afternoon teas, attendance of all technical sessions, and publication (excluding accommodation).</li>
+            <li>The registration fee is applicable to one person only. Multiple attending authors must register separately, and those not presenting should register as non-presenters.</li>
+            <li>After verifying your payment, a receipt will be generated from the payment confirmation details.</li>
+            <li>Payments are nonrefundable.</li>
+            <li>Payments cannot be made in cash; they must be made via e-billing or credit card.</li>
+            <li>Participants are responsible for transfer fees and bank charges.</li>
+            <li>At least one author for each accepted paper must register as a presenter.</li>
+            <li>Participants are charged based on their institution/affiliation, not the nationality of the first author.</li>
+            <li>Submitting an extra paper applies only to the same presenter, <u>except for UGM members</u>.</li>
+            <li><b>Participants can only pay the conference fees after receiving an acceptance notification email.</b></li>
+            <li>The early bird discount will expire on <b>October 14, 23:59 pm (UTC+7)</b>.</li>
+          </ol>
+          </div>
+        </div>
+    </div>
+  </section>
+        </div>
+        <!-- Venue -->
+        <div class="tab-pane fade" id="venueGEM" role="tabpanel" aria-labelledby="venueGEMtab" tabindex="0">
+          <section class="container pb-5">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 d-flex align-items-end flex-column py-3">
+        <img src="../images/stock/venue.jpg" class="event-img">
+      </div>
+      <div class="col-lg-9 col-md-6 pt-3">
+        <h2>Quick <span style="color: #40bb6a;">facts</span></h2><br>
+        <h6>Venue</h6>
+        <p><a href="https://maps.app.goo.gl/SGrLQ46GBNp9537UA" target="_blank">R. Soegondo Building, UGM Faculty of Cultural Sciences</a><br>
+          Bulaksumur, Sleman, Daerah Istimewa Yogyakarta 55281</p>
+          <h6>Explore</h6>
+          <p><a href="https://ugm.ac.id/en/" target="_blank">Universitas Gadjah Mada</a></p>
+          <h6>Need help?</h6>
+          <p><a href="mailto:icst@ugm.ac.id" target="_blank">Contact us</a></p>
+      </div>
+    </div>
+  </section>
+        </div>
+        <!-- Submit -->
         <div class="tab-pane fade" id="submitGEM" role="tabpanel" aria-labelledby="submitGEMtab" tabindex="0">
-          <div class="py-5">
+          <div class="container">
+            <div class="py-5">
             <p>To participate as a presenter in this symposium, there are nine steps that you need to follow.</p>
             <div class="accordion">
               <div class="accordion-item">
@@ -686,6 +1070,7 @@
                 </div>
               </div>
             </div>
+          </div>
           </div>
       </div>
       </div>
