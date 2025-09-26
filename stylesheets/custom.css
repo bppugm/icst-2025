@@ -163,24 +163,34 @@ code {
 /* NAV Pills */
 
 .nav-pills {
-  border-radius: .5rem !important;
   font-family: 'Dosis' !important;
-  text-transform: uppercase;
   font-weight: 800;
   text-decoration: none;
   font-size: 10pt;
+  text-transform: uppercase !important;
   letter-spacing: .5px;
   color: #1f73cc;
+  background-color: #1f73cc50;
+  border-radius: 5rem;
+  padding: .5rem;
+}
+
+.nav-pills .nav-link{
+  color: #1f73cc;
+  text-transform: uppercase;
 }
 
 .nav-pills .nav-link:hover{
   background-color: #1f73cc;
+  color: white;
+  border-radius: 5rem !important;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #1f73cc !important;
-  background-color: #ffc1071f;
+  color: white !important;
+  border-radius: 5rem !important;
+  background-color: #40bb6a;
 }
 
 /* FOOTER */
@@ -1063,8 +1073,8 @@ li a:hover {
 }
 
 .second-nav {
-  background-color: #f8f7fd;
-  border-radius: 5px auto;
+  background-color: transparent;
+  border-radius: .5rem auto;
 }
 
 /* Simple styling to size an SVG */
