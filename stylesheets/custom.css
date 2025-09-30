@@ -170,7 +170,7 @@ code {
   text-transform: uppercase !important;
   letter-spacing: .5px;
   color: #1f73cc22;
-  background-color: #1f73cc50;
+  background-color: rgba(0, 0, 0, 0.15);
   /* border-radius: 5rem; */
   padding: .5rem;
   /* background: rgba(255,255,255,0.22); */
