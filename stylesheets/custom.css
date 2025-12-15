@@ -954,7 +954,7 @@ code {
 .speaker-name {
   font-size: .9rem;
   font-weight: 800;
-  line-height: .5;
+  line-height: 1;
   font-family: "Dosis";
   text-transform: uppercase;
 }
