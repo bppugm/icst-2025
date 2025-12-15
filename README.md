@@ -29,7 +29,7 @@ This is the copy of website for The 11<sup>th</sup> International Conference on 
 
 ### Symposia images
 All symposia images are free to use.
-+ Computer, Electronics, and Information Technology symposium by Pachon in Motion via [Pexels](https://www.pexels.com/photo/a-computer-generated-image-of-a-city-with-lights-18337612/); [Free to use](https://www.pexels.com/license/).
++ The 2nd Computer, Electronics, and Information Technology symposium by Pachon in Motion via [Pexels](https://www.pexels.com/photo/a-computer-generated-image-of-a-city-with-lights-18337612/); [Free to use](https://www.pexels.com/license/).
 + The 6th Geoscience and Environmental Management symposium by Dan Meyers via [Unsplash](https://unsplash.com/photos/a-picture-of-a-cracked-surface-with-plants-growing-on-it-yW9YbBc4YJA); [Free to use](https://unsplash.com/license). 
 + Life Sciences, Materials, and Applied Chemistry symposium by Vedrana Filipović via [Unsplash](https://unsplash.com/photos/round-clear-glass-on-white-paper-jxqTaXF5WmY); [Free to use](https://unsplash.com/license).
 + Mechanical and Industrial Engineering symposium by Jerry Wang via [Pexels](https://www.pexels.com/photo/black-and-gray-train-on-rail-tracks-3787405/); [Free to use](https://www.pexels.com/license/).
@@ -39,16 +39,12 @@ All symposia images are free to use.
 
 ### Logos
 + UGM and ICST logos © Universitas Gadjah Mada.
-+ AIP Publishing logo © AIP Publishing LLC. 
-+ E3S Web of Conferences logo © EDP Science. 
-+ Scientific.Net logo © Trans Tech Publications Ltd. 
-+ Atlantis Press logo © Atlantis Press. 
++ Atlantis Press logo © Atlantis Press International B.V.
 + Scopus logo © Elsevier B.V. 
-+ Clarivate logo © Clarivate. 
 
 ### Other images
-+  Venue image ©  Gadjah Mada University Club (UC) Hotel UGM.
++  Venue image ©  Faculty of Cultural Sciences UGM.
 
 ## License
 
-© 2024&ndash;2025 UGM's Research Directorate under the MIT License.
+© 2025 UGM's Research Directorate under the MIT License.
