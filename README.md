@@ -41,10 +41,14 @@ All symposia images are free to use.
 + UGM and ICST logos © Universitas Gadjah Mada.
 + Atlantis Press logo © Atlantis Press International B.V.
 + Scopus logo © Elsevier B.V. 
++ Clarivate logo © Clarivate.
 
 ### Other images
-+  Venue image ©  Faculty of Cultural Sciences UGM.
++ Venue image © Faculty of Cultural Sciences UGM.
++ 404 image by pch.vector via [Freepik](https://www.freepik.com/free-vector/people-using-online-apps-set_6974932.htm); [Free to use](https://support.freepik.com/s/topic/0TO3V000000Cla4WAC/licenses?_gl=1*1didoty*_gcl_au*MzQ0MTY4OTYxLjE3NjI0MDEzNDg.*_ga*ODY4NTQ4NjQ1LjE3NDY0MzM5MDM.*_ga_QWX66025LC*czE3NjY1NjEwNjYkbzckZzAkdDE3NjY1NjEwNjYkajYwJGwwJGgw).
++ Presenter image by [M Rafieiy](https://www.flickr.com/photos/rafieiy/37070590764/); [CC BY NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/).
++ Non-presenter image by [Joakim Honkasalo](https://unsplash.com/photos/DurC25GdOvk); [Free to use](https://unsplash.com/license).
 
 ## License
 
-© 2025 UGM's Research Directorate under the MIT License.
+© 2025&ndash;2026 UGM's Research Directorate under the MIT License.
